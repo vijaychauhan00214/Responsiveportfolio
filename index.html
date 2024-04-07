@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive personal portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!--Scroll to topp button-->
+    <div class="scroll-btn">
+      <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!--Navigation Menu start-->
+    <nav>
+      <div class="navbar">
+        <div class="logo">
+          <a href="#home">Portfolio.</a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home"><span class="home-clr">Home</span></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+        </ul>
+        <div class="media-icons">
+          <a href=" https://github.com/vijaychauhan00214" 21>
+            <i class="fa fa-github" id="fgit"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/vijay-chauhan-0385561a2/"
+            ><i class="fa fa-linkedin-square" id="flink"></i>
+          </a>
+          <a href="https://www.instagram.com/vijaychauhan00214/"
+            ><i class="fa fa-instagram" id="finsta"></i>
+          </a>
+        </div>
+      </div>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+
+    <!--Home Section Start-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Vijay Chauhan</div>
+          <div class="text-three">
+            <span id="text-three">Student</span> at UPES
+          </div>
+          <div class="text-four">From Uttarakhand</div>
+        </div>
+        <div class="button">
+          <p>
+            <a href="vijaysingh_resume.pdf"
+              ><i class="fa fa-downlaod"></i>CV Download</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--About section start-->
+    <!--I will make some tags and class where we need to apply same CSS-->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="right">
+            <img src="vijay1.jpg" alt="" />
+          </div>
+          <div class="left">
+            <div class="topic">Designing is my Passion</div>
+            <p>
+              It is a form of visual communication that allows me to inspire others through my own voice and vision. Whether it's Web Designer,UI Designer,UX Designer or any other form of design. Each project is an opportunity to blend innovation with precision, turning ideas into visually stunning realities. In the realm of design, I find not only a profession but a form of self-expression, a language spoken through colors, shapes, and thoughtful details.
+            </p>
+            <div class="button">
+              <button>Hire</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--My Skill Sections-->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skill</span></div>
+        <div class="skill-details">
+          <div class="left">
+            <div class="topic" style="color: #afdbe7">
+              Skill Reflects Our Knowledge
+            </div>
+            <p>
+                I acquired comprehensive knowledge in programming languages such as C++, Java, Python, and web development technologies including HTML, CSS, JavaScript and Reactjs, Nodejs, Expressjs, Mongodb. These skills demonstrate my proficiency as a versatile developer with a strong foundation in both backend and frontend development.....!
+            </p>
+            <div class="experience">
+              <div class="num">3</div>
+              <div class="exp">Years<br />of Computer Applications</div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">HTML</div>
+              <div class="num">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">CSS</div>
+              <div class="num">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">JavaScript</div>
+              <div class="num">60%</div>
+            </div>
+            <div class="box">
+              <div class="topic">SQL</div>
+              <div class="num">70%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--My Service Section Start-->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <div class="topic">Web Development</div>
+            <p>
+              Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <div class="topic">UI Designing</div>
+            <p>
+              A UI designer is someone who designs the graphical user interface of an app, website, or device that a human interacts with.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="topic">Software Development</div>
+            <p>
+              The services help plan, design, develop, integrate, test, manage and evolve software solutions.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-address-book"></i>
+            </div>
+            <div class="topic">Icon Design</div>
+            <p>
+              "Craft icons with simplicity and clarity, ensuring they communicate purpose effectively while maintaining a consistent and scalable design."
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-camera-retro"></i>
+            </div>
+            <div class="topic">Photoshop</div>
+            <p>
+              "Photoshop is a versatile graphic design tool, renowned for its capabilities in photo manipulation, digital art creation, and professional design projects."
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-tablet-alt"></i>
+            </div>
+            <div class="topic">UX Designing</div>
+            <p>
+              "A UX designer crafts digital experiences by blending user research, wireframing, and prototyping, with a focus on enhancing usability, accessibility, and overall satisfaction for end-users."
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact Section Start-->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+          <div class="topic">Have Any Project?</div>
+          <p>
+            "If you require assistance on any projects, please feel free to reach out to me. I am open to collaboration and eager to contribute my skills and expertise to the successful execution of your initiatives."
+          </p>
+          <div class="button">
+            <a href="mailto:vijaychauhan00214@gmail.com"
+              ><button>send mail</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer Section Start-->
+    <footer>
+      <div class="text">
+        <span
+          >Created By <a href="#">Vijaychauhan</a> | &#169; 2024 All Rights
+          Reserved</span
+        >
+      </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+  </body>
+</html>
