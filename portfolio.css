@@ -1,4 +1,4 @@
-* {
+ * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -185,7 +185,7 @@ nav.sticky .menu-btn {
     transition: all 0.4s ease;
 }
 
-.home .button button:hover {
+.home .button a:hover {
     color: #4070F4;
     background-color: #FFF;
     border-color: #4070F4;
@@ -450,17 +450,9 @@ footer .text span a:hover {
     border-radius: 6px;
     box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
 }
-
-
-
-
-
-
-
-
-
-
-
+.scroll-btn i:hover{
+    background-color: rgb(50, 50, 136);
+}
 
 
 
